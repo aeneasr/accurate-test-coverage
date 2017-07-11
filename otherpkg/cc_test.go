@@ -2,8 +2,8 @@ package otherpkg
 
 import "testing"
 
-func TestCodeCoverage(t *testing.T) {
-	if CodeCoverage() != "code coverage" {
+func TestSayCodeCoverage(t *testing.T) {
+	if SayCodeCoverage() != "code coverage" {
 		t.Fail()
 	}
 }
