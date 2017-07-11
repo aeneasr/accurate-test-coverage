@@ -1,9 +1,9 @@
 package pkg
 
-func SayHello() string {
-	return "hello"
+func SayCode() string {
+	return "code"
 }
 
-func SayWorld() string {
-	return "world"
+func SayCoverage() string {
+	return "coverage"
 }

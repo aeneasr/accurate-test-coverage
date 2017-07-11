@@ -2,8 +2,8 @@ package pkg
 
 import "testing"
 
-func TestSayHello(t *testing.T) {
-	if SayHello() != "hello" {
+func TestSayCode(t *testing.T) {
+	if SayCode() != "code" {
 		t.Fail()
 	}
 }

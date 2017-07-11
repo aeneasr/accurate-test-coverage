@@ -2,8 +2,8 @@ package otherpkg
 
 import "testing"
 
-func TestHelloWorld(t *testing.T) {
-	if HelloWorld() != "hello world" {
+func TestCodeCoverage(t *testing.T) {
+	if CodeCoverage() != "code coverage" {
 		t.Fail()
 	}
 }
